@@ -5,7 +5,7 @@ let imWidth, imHeight;
 
 function preload() {
   for (let i = 0; i < numFrames; i++) {
-    let path = ('SpriteIms/sprite_' + '15' + '.png') 
+    let path = ('SpriteIms/sprite_' + i + '.png') 
     console.log('SpriteIms/sprite_' + i + '.png')
     // ims.push(loadImage('SpriteIms/sprite_15.png'));
     ims.push(loadImage(path));
